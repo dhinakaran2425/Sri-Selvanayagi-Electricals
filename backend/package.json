@@ -4,9 +4,9 @@
   "description": "Online Electrical Shop Management System",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "dev": "set NODE_ENV=development&&nodemon server.js",
-    "prod": "set NODE_ENV=production&&nodemon server.js",
+    "start": "node server.js",
+    "dev": "set NODE_ENV=development&&node server.js",
+    "prod": "set NODE_ENV=production&&node server.js",
     "seeder": "node utils/seeder.js"
   },
   "author": "Dhinakaran S",
