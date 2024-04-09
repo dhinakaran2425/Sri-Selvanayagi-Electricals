@@ -16,6 +16,7 @@
     "@material-ui/core": "^4.12.4",
     "@netlify/plugin-nextjs": "^5.0.0",
     "@reduxjs/toolkit": "^1.9.1",
+    "@vercel/node": "^3.0.26",
     "bcrypt": "^5.1.0",
     "cookie-parser": "^1.4.6",
     "crypto": "^1.0.1",
