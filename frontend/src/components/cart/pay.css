@@ -1,0 +1,170 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.containerpay {
+  max-width: 620px;
+  margin: 150px auto 100px;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+
+.payborder{
+    margin-top: 10%;
+}
+
+.innerpay{
+    margin-top: 30%;
+}
+.card-image {
+  width: 300px;
+  position: absolute;
+  top: -250px;
+  left: 140px;
+  z-index: 1;
+  margin-top: 20%;
+}
+
+.card-image-shadow {
+  position: absolute;
+  width: 410px;
+  height: 253px;
+  top: -113px;
+  left: 107px;
+  border-radius: 15px;
+  box-shadow: -5px 10px 32px 0px #000;
+  z-index: 0;
+}
+
+
+
+.video__Loginpay {
+    width: 100%;
+    height: inherit;
+    margin-left: -60%;
+    margin-right: 20%;
+    position: relative;
+    margin-top: -14%;
+  }
+.bodypay {
+  background-color: #fff;
+  min-width: 100%;
+  padding-top: 165px;
+  position: relative;
+  margin: auto;
+  padding: 40px 50px;
+  max-width: auto;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-bottom-left-radius: 20%;
+  border-top-right-radius: 20%;
+  transition: all 3s ease;
+}
+
+.bodypay:hover {
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 20%;
+  }
+
+.bodypay textarea {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin: 10px 0;
+  padding: 14px 12px;
+  font-size: 16px;
+  border-radius: 2px; 
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.bodypay button[type=submit] {
+  border: none;
+  background: #3586ff;
+  color: white;
+  font-weight: bold;  
+  transition: 0.2s;
+  margin: 20px 0px;
+  border: none;  
+  background-color: #3586ff;
+  background-image: linear-gradient(to left,#3586ff,#3111);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius:10px;
+  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #3586ff, 0px 10px 5px #999;
+}
+
+.bodypay button[type=submit]:hover {
+  top:3px;
+  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #3586ff, 0px 5px 3px #999;
+}
+.avatar_div {
+  margin-bottom: -1.5rem;
+}
+
+
+  .bodypay h2 {
+    margin: 20px 0 0; 
+    color: #3586ff;
+    font-size: 28px;
+  }
+
+.bodypay p {
+  margin-bottom: 40px;
+}
+
+.links {
+  display: table;
+  width: 100%;  
+  box-sizing: border-box;
+  border-top: 1px solid #c0c0c0;
+  margin-bottom: 10px;
+}
+
+.links a {
+  display: table-cell;
+  padding-top: 10px;
+}
+
+.links a:first-child {
+  text-align: left;
+}
+
+.links a:last-child {
+  text-align: right;
+}
+.registerLink a:last-child {
+
+  text-align: center;
+  
+}
+  .bodypay h2,
+  .bodypay p,
+  .bodypay a {
+    text-align: center;    
+  }
+
+.bodypay a {
+  text-decoration: none;  
+  font-size: .8em;
+}
+
+.bodypay a:visited {
+  color: inherit;
+}
+
+.bodypay a:hover {
+  text-decoration: underline;
+}
+

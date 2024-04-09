@@ -1,0 +1,55 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.card-imageship {
+    position: absolute;
+    top: -250px;
+    left: 60px;
+    z-index: 1;
+    margin-top: 40.5%;
+  }
+
+#tree {
+            animation: tree 8s ease-in infinite;
+        }
+
+        #speed {
+            animation: speed 4s ease-in-out infinite alternate;
+        }
+
+        #truck, #BOX {
+            animation: truck .2s ease-in-out infinite alternate;
+        }
+
+        @keyframes tree {
+            from {
+                transform: translateX(850px);
+            }
+            to {
+                transform: translateX(-900px);
+            }
+        }
+
+        @keyframes speed {
+            from {
+                transform: translateX(15px);
+            }
+            to {
+                transform: translateX(-20px);
+            }
+        }
+
+        @keyframes truck {
+            from {
+                transform: translateY(0px);
+            }
+            to {
+                transform: translateY(2px);
+            }
+        }
